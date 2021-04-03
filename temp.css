@@ -1,0 +1,36 @@
+body{
+  transition: 1s ease;
+}
+#box{
+  margin: 0;
+  height: 30px;
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-top:50px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+#ball{
+  position: absolute;
+  margin: 0;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-color: black;
+  left: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 1s ease;
+}
+#text{
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  margin-top:50px;
+  left: 50%;
+  transition: 1s ease;
+  transform: translateX(-50%);
+}
